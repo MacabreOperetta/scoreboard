@@ -1,0 +1,83 @@
+body {  
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: Cornflower;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+p{
+  padding: 12px 20px;}
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#header-links {
+  overflow: hidden;
+  background-color: #4CAF50;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+.scoreboard
+{
+  background-color: #4CAF50;
+  color: white;
+}
+a{
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+  color:white;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+tr:nth-child(2) td {
+  background-color: #FFD700;
+}
+tr:nth-child(3) td {
+  background-color: #C0C0C0;
+}
+tr:nth-child(4) td {
+  background-color: #CD7F32;
+}
+span
+{
+  color: #4CAF50;
+}
+h1 {
+  text-align: center;
+  color: #4CAF50;
+}
+th
+{
+  color: #4CAF50;
+}
